@@ -7,6 +7,7 @@ import type { Color } from '@shopify/react-native-skia'
 export interface GraphPoint {
   value: number
   date: Date
+  time: any
 }
 
 export type GraphRange = Partial<GraphPathRange>
